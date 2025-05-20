@@ -1,0 +1,132 @@
+body{
+    margin: 0 auto;
+}
+
+/* ヘッダー */
+
+.header{
+    position: sticky;
+    top: 0;
+    align-items: center;
+    margin-top: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #a0af3c;
+    box-shadow: 0 4px 4px 0 #767963;
+}
+
+.header-icon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-icon--img{
+    width:  80px;
+}
+
+.header-nav{
+    display: flex;
+}
+
+.header-nav__item{
+    margin-right: 10px;
+}
+
+.header-nav__button{
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    color: #758416;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #767963;
+}
+/* ボタンのホバー */
+.header-nav__button:hover{
+    background: #d5ff02;
+}
+
+/* ここまでヘッダー */
+
+/* ここからcontent */
+.page-title{
+    color: #767963;
+}
+
+.title{
+    font-family: "Kiwi Maru";
+    font-weight: bold;
+    padding: 20px 10px;
+    background: #4c611d;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.content,.content--border{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #767963;
+    padding-bottom: 60px;
+    margin: 60px;
+}
+
+.content--border{
+    border-bottom: dotted #a0af3c;
+    border-radius: 10px;
+}
+
+.content-img{
+    width: 400px;
+}
+
+.text{
+    font-size: 15px;
+    left: 0;
+    margin: 30px 0;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#academic,#work,#skill{
+    text-align: left;
+    padding-left: 50px;
+}
+.content-site__cover{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-site{
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: #a0af3c;
+    box-shadow: 0 4px 4px 0 #767963;
+    margin-bottom: 10px;
+}
+
+
+/* ここまでcontent */
+
+/* ここからfooter */
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.footer{
+    background-color: #a0af3c;
+}
+
+.footer-text{
+    font-size: 13px;
+    color: #FFFFFF;
+}
