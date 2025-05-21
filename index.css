@@ -48,9 +48,32 @@ body{
     background: #d5ff02;
 }
 
+/* レスポンシブデザイン(スマートフォンサイズ) */
+@media screen and (min-width: 370px){
+    .header{
+        padding: 10px;
+    }
+
+    .header-icon--img{
+        width: 40px;
+    }
+
+    .header-nav__item{
+        margin-right: 5px;
+    }
+
+    .header-nav__button{
+        font-size: 10px;
+        padding: 6px;
+        border-radius: 5px;
+    }
+}
+
 /* ここまでヘッダー */
 
+
 /* ここからcontent */
+
 .page-title{
     color: #767963;
 }
@@ -78,18 +101,19 @@ body{
     border-radius: 10px;
 }
 
+.text {
+    font-size: 15px;
+    left: 0;
+    margin: 30px 0;
+}
+
 .content-img{
     width: 400px;
+    border-radius: 7px;
 }
 
 .article{
     margin-top: 80px;
-}
-
-.text{
-    font-size: 15px;
-    left: 0;
-    margin: 30px 0;
 }
 
 #name{
@@ -101,6 +125,7 @@ body{
     text-align: left;
     padding-left: 50px;
 }
+
 .content-site__cover{
     display: flex;
     flex-direction: column;
@@ -116,6 +141,72 @@ body{
     margin-bottom: 10px;
 }
 
+/* レスポンシブデザイン(スマートフォンサイズ) */
+@media screen and (min-width: 370px){
+    .page-title{
+        font-size: 20px;
+    }
+
+    .text-part{
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 10px;
+        left: 0;
+        margin: 15px 0;
+    }
+
+    .content,.content--border{
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        color: #767963;
+        padding-bottom: 40px;
+    }
+
+    .title {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .content-img {
+        width: 250px;
+        border-radius: 7px;
+    }
+
+    .article {
+        margin-top: 50px;
+    }
+
+    #name {
+        font-size: 15px;
+    }
+
+    #academic,
+    #work,
+    #skill {
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    .content-site__cover {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+    }
+
+    .content-site {
+        font-size: 10px;
+        padding: 5px;
+        text-decoration: none;
+        color: #FFFFFF;
+        border-radius: 7px;
+        background: #a0af3c;
+        box-shadow: 0 4px 4px 0 #767963;
+        margin-bottom: 7px;
+    }
+}
 
 /* ここまでcontent */
 
@@ -151,4 +242,39 @@ body{
     font-size: 15px;
     font-weight: bold;
     color: #FFFFFF;
+}
+
+/* レスポンシブデザイン(スマートフォンサイズ) */
+@media screen and (min-width: 370px){
+    .footer {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    .footer {
+        background-color: #a0af3c;
+    }
+
+    .alignment {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon {
+        object-fit: contain;
+        width: 17px;
+        margin-right: 10px;
+    }
+
+    .footer-text {
+        font-size: 8px;
+        color: #FFFFFF;
+    }
+
+    .footer-link {
+        font-size: 10px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
 }
