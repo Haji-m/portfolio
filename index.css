@@ -82,6 +82,10 @@ body{
     width: 400px;
 }
 
+.article{
+    margin-top: 80px;
+}
+
 .text{
     font-size: 15px;
     left: 0;
