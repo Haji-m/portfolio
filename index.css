@@ -130,7 +130,25 @@ body{
     background-color: #a0af3c;
 }
 
+.alignment{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.icon{
+    object-fit: contain;
+    width: 30px;
+    margin-right: 10px;
+}
+
 .footer-text{
     font-size: 13px;
+    color: #FFFFFF;
+}
+
+.footer-link{
+    font-size: 15px;
+    font-weight: bold;
     color: #FFFFFF;
 }
